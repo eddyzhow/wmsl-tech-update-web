@@ -27,3 +27,4 @@ download status
 web mvc controller --class com.wealth.techupdate.web.SpeakerController --preferredMapping /speaker
 // Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-01 21:32:02
 repository mongo --interface com.wealth.techupdate.web.repository.TopicRepository --entity ~.entity.Topic
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-02 02:17:29
