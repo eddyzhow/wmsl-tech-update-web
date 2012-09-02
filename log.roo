@@ -30,3 +30,7 @@ repository mongo --interface com.wealth.techupdate.web.repository.TopicRepositor
 // Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-02 02:17:29
 web mvc controller --class ~.TopicController --preferredMapping /topic
 // Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-09-02 20:20:48
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-02 23:07:39
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-03 00:36:38
+logging setup --level DEBUG 
+logging setup --level WARN 
