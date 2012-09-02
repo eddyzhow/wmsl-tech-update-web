@@ -3,4 +3,8 @@ body>.navbar-fixed-top .brand {
 	margin-left: 0;
 	padding-left: 10px;
 	padding-right: 10px;
+	font-weight: bold;
+}
+.navbar-inner {
+	background-image: none !important;
 }
