@@ -7,9 +7,12 @@
 <link rel="stylesheet" href="resources/twitter-bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="resources/styles/navbar.css">
 <style type="text/css">
-	.space-padd {height: 40px;}
-	@media (max-width: 767px) {
-		.space-padd {display: none;}
+	body {padding-top: 40px;}
+	@media(max-width: 979px) {
+		body {padding-top: 0;}
+	}
+	@media(max-width: 768px) {
+		body {padding-top: 0;}
 	}
 </style>
 <script src="resources/jquery-1.8.1.min.js"></script>
@@ -26,7 +29,6 @@
 			</div>
 		</div>
 	</div>
-	<div class="space-padd"></div>
 	<div class="container" ng-view></div>
 </body>
 </html>
