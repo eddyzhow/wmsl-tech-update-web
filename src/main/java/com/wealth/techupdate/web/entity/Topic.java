@@ -1,6 +1,7 @@
 package com.wealth.techupdate.web.entity;
 
 import java.util.Date;
+import java.util.List;
 
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.roo.addon.javabean.RooJavaBean;
@@ -15,5 +16,5 @@ public class Topic {
 	private String description;
 	private Date speakDate;
 	@DBRef
-	private Speaker speaker;
+	private List<Speaker> speakers;
 }
