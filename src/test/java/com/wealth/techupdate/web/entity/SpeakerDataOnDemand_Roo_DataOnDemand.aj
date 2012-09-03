@@ -31,6 +31,7 @@ privileged aspect SpeakerDataOnDemand_Roo_DataOnDemand {
     public Speaker SpeakerDataOnDemand.getNewTransientSpeaker(int index) {
         Speaker obj = new Speaker();
         setName(obj, index);
+        setProfile(obj, index);
         setProfilePicPath(obj, index);
         return obj;
     }
@@ -38,6 +39,11 @@ privileged aspect SpeakerDataOnDemand_Roo_DataOnDemand {
     public void SpeakerDataOnDemand.setName(Speaker obj, int index) {
         String name = "name_" + index;
         obj.setName(name);
+    }
+    
+    public void SpeakerDataOnDemand.setProfile(Speaker obj, int index) {
+        String profile = "profile_" + index;
+        obj.setProfile(profile);
     }
     
     public void SpeakerDataOnDemand.setProfilePicPath(Speaker obj, int index) {

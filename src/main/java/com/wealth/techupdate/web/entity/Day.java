@@ -1,8 +1,8 @@
 package com.wealth.techupdate.web.entity;
 
-import java.util.List;
+import flexjson.JSONDeserializer;
+import java.util.Date;
 
-import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.roo.addon.javabean.RooJavaBean;
 import org.springframework.roo.addon.json.RooJson;
 import org.springframework.roo.addon.layers.repository.mongo.RooMongoEntity;
@@ -12,9 +12,12 @@ import org.springframework.roo.addon.tostring.RooToString;
 @RooToString
 @RooMongoEntity
 @RooJson
-public class Topic {
-	private String title;
-	private String description;
-	@DBRef
-	private List<Speaker> speakers;
+public class Day {
+	private Date date;
+	private String remark;
+
+	public static Day fromJsonToDay(String json) {
+        return new JSONDeserializer<Day>()
+        		.use(null, Day.class).deserialize(json);
+    }
 }
