@@ -1,2 +1,13 @@
-<h1>Day Home</h1>
-<label>Remark: </label><input type="text" ng-model="remark" /> <button ng-click="createDay()">Create</button>
+<div class="row">
+	<div class="span12">
+		<div class="form">
+			<label>Date:</label>
+			<input type="text" placeholder="dd/mm/yyyy" ng-model="date" />
+			<label>Remark: </label>
+			<textarea rows="3" ng-model="remark"></textarea>
+			<div>
+				<button class="btn btn-primary" ng-click="createDay()"><i class="icon-ok">&nbsp;</i>Create</button>
+			</div>
+		</div>
+	</div>
+</div>

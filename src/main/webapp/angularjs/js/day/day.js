@@ -2,7 +2,6 @@
 
 /* Controllers */
 function CreateDayCtrl($scope, $http) {
-	$scope.remark = 'remark here';
 	$scope.createDay = function() {
 		$http.put('day', {
 			remark: $scope.remark

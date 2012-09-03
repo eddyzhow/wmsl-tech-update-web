@@ -1,6 +1,8 @@
 package com.wealth.techupdate.web.entity;
 
 import flexjson.JSONDeserializer;
+import flexjson.transformer.DateTransformer;
+
 import java.util.Date;
 
 import org.springframework.roo.addon.javabean.RooJavaBean;
@@ -18,6 +20,7 @@ public class Day {
 
 	public static Day fromJsonToDay(String json) {
         return new JSONDeserializer<Day>()
+        		.use(new DateTransformer("dd/MM/yyyy"), "date")
         		.use(null, Day.class).deserialize(json);
     }
 }
