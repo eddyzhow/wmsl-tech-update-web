@@ -5,6 +5,7 @@
 <title>WMSL Tech Update</title>
 <link rel="stylesheet" href="resources/angularjs/css/app.css">
 <link rel="stylesheet" href="resources/twitter-bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="resources/styles/font-awesome.css">
 <link rel="stylesheet" href="resources/styles/navbar.css">
 <style type="text/css">
 	body {padding-top: 40px;}
