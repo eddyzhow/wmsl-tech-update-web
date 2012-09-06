@@ -23,4 +23,12 @@ privileged aspect Speaker_Roo_JavaBean {
         this.profilePicPath = profilePicPath;
     }
     
+    public String Speaker.getProfile() {
+        return this.profile;
+    }
+    
+    public void Speaker.setProfile(String profile) {
+        this.profile = profile;
+    }
+    
 }

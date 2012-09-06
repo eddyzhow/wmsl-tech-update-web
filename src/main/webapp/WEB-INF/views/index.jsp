@@ -5,6 +5,7 @@
 <title>WMSL Tech Update</title>
 <link rel="stylesheet" href="resources/angularjs/css/app.css">
 <link rel="stylesheet" href="resources/twitter-bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="resources/styles/font-awesome.css">
 <link rel="stylesheet" href="resources/styles/navbar.css">
 <style type="text/css">
 	body {padding-top: 40px;}
@@ -20,6 +21,8 @@
 <script src="resources/angularjs/lib/angular/angular.js"></script>
 <script src="resources/angularjs/js/app.js"></script>
 <script src="resources/angularjs/js/controllers.js"></script>
+<script src="resources/angularjs/js/speaker/speaker.js"></script>
+<script src="resources/angularjs/js/day/day.js"></script>
 </head>
 <body>
 	<div class="navbar navbar-fixed-top">

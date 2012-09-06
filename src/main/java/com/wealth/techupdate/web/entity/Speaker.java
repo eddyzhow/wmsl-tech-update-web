@@ -14,4 +14,8 @@ public class Speaker {
     private String name;
 
     private String profilePicPath;
+    
+    private String profile;
+
+
 }
